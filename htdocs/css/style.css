@@ -1,0 +1,20 @@
+/*Reece Battye 17417951*/
+body {
+  background: #cc00cc;
+  text-align: center;
+}
+
+a:link, a:visited {
+    background-color: pink;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+h3 {
+  color: #ffffff;
+}
