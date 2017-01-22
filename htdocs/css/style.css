@@ -38,6 +38,9 @@ img {
 }
 
 /*Text*/
+.header  {
+  color: #ff5000
+}
 
 h3 {
   font-size: 24px;
@@ -51,14 +54,14 @@ p1 {
 /*CV*/
 
 .work {
-  max-width: 50%;
+  max-width: 70%;
   margin: auto;
   text-align: center;
 }
 
 .work h3 {
   text-align: center;
-  color: #ff1;
+  color: #fff;
 }
 
 .company {
@@ -78,6 +81,7 @@ p1 {
 }
 
 .role {
+  float: none;
   text-align: center;
   font-weight: bold;
 }
