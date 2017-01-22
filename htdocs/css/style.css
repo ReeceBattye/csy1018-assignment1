@@ -4,17 +4,80 @@ body {
   text-align: center;
 }
 
-a:link, a:visited {
+/*Links*/
+
+.dl  {
+  text-align: center;
+}
+
+#nav a:link, a:visited {
+  width: 70px;
     background-color: pink;
     color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+
+}
+
+.nav {
+  text-align: center;
 }
 
 
 
+/*Image*/
+
+img {
+  margin: 5%;
+  float:left;
+  border-radius: 100%;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+/*Text*/
+
 h3 {
+  font-size: 24px;
   color: #ffffff;
+}
+
+p1 {
+  font-size: 20px;
+}
+
+/*CV*/
+
+.work {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.work h3 {
+  text-align: center;
+  color: #ff1;
+}
+
+.company {
+  font-weight: bold;
+  float: left;
+}
+
+.list {
+  display: inline-block;
+  text-align: justify;
+}
+
+.date {
+  font-weight: bold;
+  margin-left: 10px;
+  float: right;
+}
+
+.role {
+  text-align: center;
+  font-weight: bold;
 }

@@ -5,9 +5,11 @@ body {
   background: #cc00cc;
 }
 
+/*Link*/
 
 
-a:link, a:visited {
+a:link, a:visited, a {
+  width: 60px;
     background-color: pink;
     color: black;
     padding: 14px 25px;
